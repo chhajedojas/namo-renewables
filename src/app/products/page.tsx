@@ -39,7 +39,7 @@ export default function Products() {
             </div>
             <div className="grid grid-cols-2 gap-6">
                <div className="relative h-40 rounded-xl overflow-hidden shadow-md">
-                 <Image src="/images/briquette-hand-new.jpg" alt="Briquette Density" fill className="object-cover object-center" />
+                 <Image src="/images/briquette-side-new.jpg" alt="Briquette Side Profile" fill className="object-cover object-center" />
                </div>
                <div className="relative h-40 rounded-xl overflow-hidden shadow-md">
                  <Image src="/images/briquette-texture.jpg" alt="Briquette Texture" fill className="object-cover object-center" />
