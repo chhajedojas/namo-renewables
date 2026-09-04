@@ -3,6 +3,8 @@ import Link from "next/link";
 import { CheckCircle } from "lucide-react";
 import type { Metadata } from "next";
 
+import ProductGallery from "@/components/ProductGallery";
+
 export const metadata: Metadata = {
   title: "Products & Specifications | Namo Renewables",
   description: "Technical specifications for our high-density biomass briquettes. View calorific value, ash content, moisture levels, and packaging details for B2B procurement.",
@@ -27,25 +29,8 @@ export default function Products() {
       <section className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
           
-          {/* Images */}
-          <div className="space-y-6">
-            <div className="relative h-80 rounded-xl overflow-hidden shadow-lg border border-gray-100">
-              <Image 
-                src="/images/briquette-cross-section.jpg" 
-                alt="Premium Biomass Briquettes Cross Section" 
-                fill 
-                className="object-cover object-center"
-              />
-            </div>
-            <div className="grid grid-cols-2 gap-6">
-               <div className="relative h-40 rounded-xl overflow-hidden shadow-md">
-                 <Image src="/images/briquette-side-new.jpg" alt="Briquette Side Profile" fill className="object-cover object-center" />
-               </div>
-               <div className="relative h-40 rounded-xl overflow-hidden shadow-md">
-                 <Image src="/images/briquette-texture.jpg" alt="Briquette Texture" fill className="object-cover object-center" />
-               </div>
-            </div>
-          </div>
+          {/* Images Gallery */}
+          <ProductGallery />
 
           {/* Specs */}
           <div>
