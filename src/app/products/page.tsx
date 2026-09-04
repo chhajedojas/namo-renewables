@@ -31,8 +31,8 @@ export default function Products() {
           <div className="space-y-6">
             <div className="relative h-80 rounded-xl overflow-hidden shadow-lg border border-gray-100">
               <Image 
-                src="/images/briquette-side-new.jpg" 
-                alt="Premium Biomass Briquettes" 
+                src="/images/briquette-cross-section.jpg" 
+                alt="Premium Biomass Briquettes Cross Section" 
                 fill 
                 className="object-cover object-center"
               />
@@ -41,8 +41,8 @@ export default function Products() {
                <div className="relative h-40 rounded-xl overflow-hidden shadow-md">
                  <Image src="/images/briquette-hand-new.jpg" alt="Briquette Density" fill className="object-cover object-center" />
                </div>
-               <div className="relative h-40 rounded-xl overflow-hidden shadow-md bg-gray-100 flex items-center justify-center p-4 text-center">
-                 <p className="font-medium text-namo-green-900">Made from 100% natural agricultural residue (primarily sawdust and corn cobs).</p>
+               <div className="relative h-40 rounded-xl overflow-hidden shadow-md">
+                 <Image src="/images/briquette-texture.jpg" alt="Briquette Texture" fill className="object-cover object-center" />
                </div>
             </div>
           </div>
