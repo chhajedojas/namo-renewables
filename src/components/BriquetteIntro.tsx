@@ -56,26 +56,26 @@ export default function BriquetteIntro() {
         >
           {/* Logo emerging from the center */}
           <motion.div
-            className="absolute z-10 w-64 h-64 flex items-center justify-center"
+            className="absolute z-10 w-48 h-48 md:w-64 md:h-64 flex items-center justify-center"
             initial={{ scale: 0.5, opacity: 0, rotate: -20 }}
             animate={{ scale: 1.2, opacity: 1, rotate: 0 }}
             transition={{ delay: 1.5, duration: 1.2, type: "spring", bounce: 0.4 }}
           >
             <Image src="/images/logo.jpg" alt="Logo" fill className="object-contain" priority />
             <motion.div 
-              className="absolute -bottom-12 w-[400px] text-center"
+              className="absolute -bottom-10 md:-bottom-12 w-[300px] md:w-[400px] text-center"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 2.2, duration: 0.8 }}
             >
-              <h1 className="text-4xl font-bold text-namo-green-900 font-[family-name:var(--font-playfair)] tracking-wide">
+              <h1 className="text-2xl md:text-4xl font-bold text-namo-green-900 font-[family-name:var(--font-playfair)] tracking-wide">
                 NAMO RENEWABLES
               </h1>
             </motion.div>
           </motion.div>
 
           {/* The Briquette that splits */}
-          <div className="relative w-[400px] h-[400px] md:w-[600px] md:h-[600px] z-20">
+          <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[600px] md:h-[600px] z-20">
             
             {/* Left Half */}
             <motion.div
