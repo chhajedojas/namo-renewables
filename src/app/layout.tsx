@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair' });
@@ -82,6 +83,7 @@ export default function RootLayout({
           </svg>
         </a>
         <Analytics />
+        <GoogleAnalytics gaId="G-VD3QGJBF5K" />
       </body>
     </html>
   );
