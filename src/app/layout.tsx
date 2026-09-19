@@ -13,10 +13,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
-  icons: {
-    icon: '/images/logo.jpg',
-    apple: '/images/logo.jpg',
-  },
   title: "Namo Renewables - Premium Biomass Briquettes",
   description: "Sustainable, high-density biomass briquettes manufactured from agricultural waste. Reliable, eco-friendly fuel for industrial boilers and furnaces.",
   keywords: ["biomass briquettes", "biofuel", "renewable energy", "Namo Renewables", "Maharashtra briquettes supplier", "clean energy"],
