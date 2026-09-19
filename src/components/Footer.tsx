@@ -46,7 +46,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-namo-green-100/80">
                 <Mail className="shrink-0" size={18} />
-                <a href="mailto:namorenewables@gmail.com" className="hover:text-white transition-colors break-all">namorenewables@gmail.com</a>
+                <a href="mailto:contact@namorenewables.in" className="hover:text-white transition-colors break-all">contact@namorenewables.in</a>
               </li>
             </ul>
           </div>

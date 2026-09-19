@@ -53,7 +53,7 @@ export default function RootLayout({
               "@type": "LocalBusiness",
               "name": "Namo Renewables",
               "image": "",
-              "email": "namorenewables@gmail.com",
+              "email": "contact@namorenewables.in",
               "telephone": ["+919422222132", "+918888092371"],
               "address": {
                 "@type": "PostalAddress",

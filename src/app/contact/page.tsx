@@ -52,8 +52,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-xl text-namo-green-900 mb-1">Email</h3>
-                  <a href="mailto:namorenewables@gmail.com" className="text-gray-700 text-lg hover:text-namo-green-600 transition-colors">
-                    namorenewables@gmail.com
+                  <a href="mailto:contact@namorenewables.in" className="text-gray-700 text-lg hover:text-namo-green-600 transition-colors">
+                    contact@namorenewables.in
                   </a>
                 </div>
               </div>
