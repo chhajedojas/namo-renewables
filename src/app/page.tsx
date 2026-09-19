@@ -30,7 +30,7 @@ export default function Home() {
           </FadeIn>
           <FadeIn direction="up" delay={4.0}>
             <p className="text-xl md:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto leading-relaxed">
-              Namo Renewables provides premium biomass briquettes. We turn agricultural waste—primarily sawdust and corn cobs—into high-efficiency, sustainable fuel to power your business and protect our planet.
+              Namo Renewables provides premium biomass briquettes. We turn agricultural waste, primarily sawdust and corn cobs, into high-efficiency, sustainable fuel to power your business and protect our planet.
             </p>
           </FadeIn>
           <FadeIn direction="up" delay={4.2}>

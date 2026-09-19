@@ -34,7 +34,7 @@ export default function About() {
               Founded and led by <strong>Ashishkumar Chhajed</strong>, Namo Renewables is driven by a single, powerful mission: to accelerate the industrial transition from harmful fossil fuels to clean, sustainable, and renewable energy sources. 
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Based in Chalisgaon, Maharashtra, we have established ourselves as a trusted supplier of biomass briquettes. We utilize agricultural waste—primarily sawdust and corn cobs—and transform them into high-density energy logs. Under Mr. Chhajed&apos;s guidance, our commitment to quality not only provides industries with a cost-effective fuel but also prevents agricultural waste burning, directly reducing air pollution.
+              Based in Chalisgaon, Maharashtra, we have established ourselves as a trusted supplier of biomass briquettes. We utilize agricultural waste, primarily sawdust and corn cobs, and transform them into high-density energy logs. Under Mr. Chhajed&apos;s guidance, our commitment to quality not only provides industries with a cost-effective fuel but also prevents agricultural waste burning, directly reducing air pollution.
             </p>
             <div className="bg-namo-brown-50 p-6 rounded-lg border border-namo-brown-100 mt-8">
               <h3 className="font-bold text-namo-green-900 mb-2">Our Vision</h3>
@@ -79,7 +79,7 @@ export default function About() {
             <div className="order-1 md:order-2">
               <h2 className="text-3xl font-bold text-white mb-6">Our Environmental Impact</h2>
               <p className="text-lg text-namo-green-100 mb-6 leading-relaxed">
-                Namo Renewables plays a critical role in the circular economy. By converting agricultural residues (like sawdust and corn cobs) into briquettes, we prevent the open burning of waste—a major cause of smog and particulate pollution in India.
+                Namo Renewables plays a critical role in the circular economy. By converting agricultural residues (like sawdust and corn cobs) into briquettes, we prevent the open burning of waste, a major cause of smog and particulate pollution in India.
               </p>
               <h3 className="text-xl font-bold text-namo-green-300 mb-3 mt-8">Carbon Credits & ESG Goals</h3>
               <p className="text-lg text-namo-green-100 mb-6 leading-relaxed">
