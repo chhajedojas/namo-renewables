@@ -8,15 +8,31 @@ const inter = Inter({ subsets: ["latin"] });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair' });
 
 export const metadata: Metadata = {
-  title: "Namo Renewables | Premium Biomass Briquettes Supplier",
-  description: "Leading manufacturer and supplier of high-quality biomass briquettes in Maharashtra. Clean, sustainable, and cost-effective renewable fuel for industries.",
+  title: "Namo Renewables - Premium Biomass Briquettes",
+  description: "Sustainable, high-density biomass briquettes manufactured from agricultural waste. Reliable, eco-friendly fuel for industrial boilers and furnaces.",
   keywords: ["biomass briquettes", "biofuel", "renewable energy", "Namo Renewables", "Maharashtra briquettes supplier", "clean energy"],
   openGraph: {
-    title: "Namo Renewables | Biomass Briquettes",
-    description: "Premium biomass briquettes for industrial use. Sustainable and cost-effective renewable fuel.",
-    type: "website",
+    title: "Namo Renewables - Premium Biomass Briquettes",
+    description: "Sustainable, high-density biomass briquettes manufactured from agricultural waste.",
+    url: "https://www.namorenewables.co.in",
+    siteName: "Namo Renewables",
+    images: [
+      {
+        url: "/images/logo.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Namo Renewables Logo",
+      },
+    ],
     locale: "en_IN",
-  }
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Namo Renewables",
+    description: "Sustainable, high-density biomass briquettes manufactured from agricultural waste.",
+    images: ["/images/logo.jpg"],
+  },
 };
 
 export default function RootLayout({
