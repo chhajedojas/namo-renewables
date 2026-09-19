@@ -13,11 +13,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           <div className="flex items-center">
-            <Link href="/" className="flex-shrink-0 flex items-center gap-4" onClick={() => setIsOpen(false)}>
-              <div className="relative w-16 h-16">
+            <Link href="/" className="flex-shrink-0 flex items-center gap-2 sm:gap-4" onClick={() => setIsOpen(false)}>
+              <div className="relative w-12 h-12 sm:w-16 sm:h-16">
                 <Image src="/images/logo.jpg" alt="Namo Renewables Logo" fill className="object-contain mix-blend-multiply" priority />
               </div>
-              <span className="font-bold text-2xl md:text-3xl text-namo-green-900 hidden sm:block font-[family-name:var(--font-playfair)]">Namo Renewables</span>
+              <span className="font-bold text-xl sm:text-2xl md:text-3xl text-namo-green-900 font-[family-name:var(--font-playfair)]">Namo Renewables</span>
             </Link>
           </div>
           
