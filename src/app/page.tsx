@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Leaf, Factory, ShieldCheck } from "lucide-react";
-import type { Metadata } from "next";
 import FadeIn from "@/components/FadeIn";
 import BriquetteIntro from "@/components/BriquetteIntro";
 

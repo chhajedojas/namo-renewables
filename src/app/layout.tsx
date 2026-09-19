@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair' });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.namorenewables.in"),
   title: "Namo Renewables - Premium Biomass Briquettes",
   description: "Sustainable, high-density biomass briquettes manufactured from agricultural waste. Reliable, eco-friendly fuel for industrial boilers and furnaces.",
   keywords: ["biomass briquettes", "biofuel", "renewable energy", "Namo Renewables", "Maharashtra briquettes supplier", "clean energy"],
