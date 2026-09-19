@@ -53,8 +53,12 @@ export default function Footer() {
 
         </div>
         
-        <div className="border-t border-namo-green-800 mt-12 pt-8 text-center text-sm text-namo-green-100/60">
+        <div className="border-t border-namo-green-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-namo-green-100/60">
           <p>&copy; {new Date().getFullYear()} Namo Renewables. All rights reserved.</p>
+          <div className="flex items-center gap-6">
+            <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
+          </div>
         </div>
       </div>
     </footer>
