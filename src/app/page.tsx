@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <BriquetteIntro />
       {/* Hero Section */}
-      <section className="relative h-[90vh] min-h-[600px] flex items-center justify-center">
+      <section className="relative min-h-[90vh] flex items-center justify-center py-24 md:py-0">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image 
