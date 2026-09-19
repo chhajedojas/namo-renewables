@@ -19,17 +19,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Namo Renewables - Premium Biomass Briquettes",
     description: "Sustainable, high-density biomass briquettes manufactured from agricultural waste.",
-    url: "https://www.namorenewables.co.in",
+    url: "https://www.namorenewables.in",
     siteName: "Namo Renewables",
-    images: [
-      {
-        url: "/images/logo.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Namo Renewables Logo",
-      },
-    ],
-    locale: "en_IN",
     type: "website",
   },
   twitter: {
